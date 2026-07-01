@@ -1,0 +1,38 @@
+# 🏥 Hospital Readmission Prediction: Healthcare Analytics Project
+
+## 📌 Project Overview
+This project predicts 30-day hospital readmission risk for diabetic patients using machine learning. The goal is to help hospitals identify high-risk patients and implement targeted discharge interventions.
+
+## 🎯 Problem Statement
+Medicare penalizes hospitals with high 30-day readmission rates, costing U.S. hospitals over $40 billion annually. This model identifies at-risk patients, enabling proactive care management.
+
+## 📊 Key Findings
+| Risk Factor | Odds Ratio | Impact |
+|-------------|------------|--------|
+| Emergency Admission | 1.35 | 35% higher risk |
+| Number of Diagnoses | 1.27 | Each diagnosis increases risk by 27% |
+| Discharge to Nursing Home | 1.21 | 21% higher risk |
+| Age 70-80 | 1.10 | 10% higher risk |
+
+### Department High-Risk Ranking
+1. **Infectious Diseases:** 32%
+2. **Hematology:** 29%
+3. **Nephrology:** 25%
+
+## 📊 Visualizations
+![Combined Dashboard](dashboard_combined.png)
+![Specialty Risk](specialty_risk.png)
+
+## 🛠️ Tools & Technologies
+- **Python:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+- **Machine Learning:** Logistic Regression, SMOTE
+- **Statistics:** Odds Ratios, 95% Confidence Intervals
+
+## 📈 Model Performance
+| Metric | Value |
+|--------|-------|
+| AUC Score | 0.664 |
+| High Risk Recall | 62% |
+| Precision (High Risk) | 25% |
+
+## 📁 Repository Structure
